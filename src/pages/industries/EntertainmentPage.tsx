@@ -78,7 +78,7 @@ function EntertainmentPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="prose prose-lg max-w-none mb-16">
           <p className="text-lg text-military-700 leading-relaxed">
-            Dajah Group has worked with some of the leading music publishers, merchandise rights agencies, major motion picture studios, fashion designers, video game developers, and many of the most successful companies and artists of all time — Emmy, Grammy, Olivier, Oscar, Tony, and Pulitzer Prize winners as well as sports superstars. With offices in NYC, LA, London and the Metaverse, Dajah Group is able to work with you wherever you are.
+            Dajah Group has worked with some of the leading music publishers, merchandise rights agencies, major motion picture studios, fashion designers, video game developers, and many of the most successful companies and artists.
           </p>
           <p className="text-lg text-military-700 leading-relaxed mt-6">
             That tradition continues today, as Dajah Group provides counsel to professional leaders and icons around the world.
