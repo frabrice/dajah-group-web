@@ -11,21 +11,21 @@ import 'swiper/css/effect-fade';
 
 const slides = [
   {
-    title: "TAX",
-    description: "Expert tax planning and compliance services to optimize your financial position. We ensure your business stays compliant while maximizing tax efficiency.",
-    image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&q=80&w=2000",
+    title: "FINANCIAL EXCELLENCE",
+    description: "Comprehensive financial solutions designed to drive your business forward. Our expert team combines innovation with proven strategies to deliver exceptional results.",
+    image: "/ai-generated-8165282_1280.jpg",
     link: "/services/tax"
   },
   {
-    title: "ADVISORY",
-    description: "Strategic business consulting to drive growth and maximize efficiency. Our experienced team provides insights to help you make informed decisions.",
-    image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=2000",
+    title: "PROFESSIONAL ACCOUNTING",
+    description: "Expert accounting services tailored to your business needs. We ensure accuracy, compliance, and strategic financial management for sustainable growth.",
+    image: "/accounting-343067_1280.jpg",
     link: "/services/advisory"
   },
   {
-    title: "AUDIT & ACCOUNTING",
-    description: "Comprehensive audit solutions ensuring accuracy and compliance. We deliver thorough financial analysis and reporting to maintain your business integrity.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000",
+    title: "STRATEGIC GROWTH",
+    description: "Transform your business potential into measurable success. Our strategic advisory services help you navigate challenges and capitalize on opportunities.",
+    image: "/drops-2086342_1280.jpg",
     link: "/services/audit"
   }
 ];
@@ -53,7 +53,7 @@ function HomePage() {
             clickable: true,
             dynamicBullets: true,
           }}
-          navigation={true}
+          navigation={false}
           loop={true}
           className="h-full"
         >
@@ -72,24 +72,24 @@ function HomePage() {
                 
                 {/* Content */}
                 <div className="relative h-full flex items-center">
-                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20 md:pt-32">
-                    <div className="max-w-3xl">
-                      <h2 className="text-accent-400 text-sm md:text-lg lg:text-xl font-lato mb-4 tracking-wider opacity-0 animate-[fadeInUp_0.5s_0.5s_forwards]">
+                  <div className="w-full px-4 sm:px-6 lg:px-8 pt-20 md:pt-32">
+                    <div className="max-w-2xl">
+                      <h2 className="text-accent-400 text-xs md:text-sm font-inter mb-3 tracking-wider opacity-0 animate-[fadeInUp_0.5s_0.5s_forwards] uppercase font-medium">
                         PROFESSIONAL SERVICES
                       </h2>
-                      <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-playfair font-bold text-white mb-4 md:mb-6 opacity-0 animate-[fadeInUp_0.5s_0.7s_forwards] leading-tight">
+                      <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-inter font-bold text-white mb-3 md:mb-4 opacity-0 animate-[fadeInUp_0.5s_0.7s_forwards] leading-tight">
                         {slide.title}
                       </h1>
-                      <p className="text-base md:text-lg lg:text-xl text-white/90 font-lato max-w-2xl leading-relaxed opacity-0 animate-[fadeInUp_0.5s_0.9s_forwards] mb-6 md:mb-8">
+                      <p className="text-sm md:text-base text-white/90 font-inter max-w-xl leading-relaxed opacity-0 animate-[fadeInUp_0.5s_0.9s_forwards] mb-4 md:mb-6 font-light">
                         {slide.description}
                       </p>
                       <Link
                         to="/about"
                         onClick={scrollToTop}
-                        className="inline-flex items-center px-6 md:px-8 py-3 md:py-4 bg-accent-500 text-white rounded-md hover:bg-accent-600 transition-all duration-300 font-lato tracking-wide opacity-0 animate-[fadeInUp_0.5s_1.1s_forwards] group text-sm md:text-base"
+                        className="inline-flex items-center px-4 md:px-6 py-2 md:py-3 bg-accent-500 text-white rounded-md hover:bg-accent-600 transition-all duration-300 font-inter tracking-wide opacity-0 animate-[fadeInUp_0.5s_1.1s_forwards] group text-xs md:text-sm font-medium"
                       >
                         Learn More
-                        <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 transform group-hover:translate-x-1 transition-transform" />
+                        <ArrowRight className="ml-2 h-3 w-3 md:h-4 md:w-4 transform group-hover:translate-x-1 transition-transform" />
                       </Link>
                     </div>
                   </div>

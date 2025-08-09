@@ -90,43 +90,8 @@ function AboutPage() {
   const teamMembers = [
     {
       name: "HERVE CLISTER MUVUNYI",
-      role: "Chief Executive Officer",
+      role: "Founder & Chief Executive Officer",
       image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Herve%20Muvunyi.jpg"
-    },
-    {
-      name: "BUNTU JULES",
-      role: "Operations Manager",
-      image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Buntu%20Giles.jpg"
-    },
-    {
-      name: "CPA LAURENT MUNYAWERA",
-      role: "Senior Accountant",
-      image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Laurent%20Munyawera.jpg"
-    },
-    {
-      name: "RODRIGUE MUGISHA",
-      role: "Senior Accountant",
-      image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Rodrigue%20Mugisha.jpg"
-    },
-    {
-      name: "NKURUNZIZA DIANE",
-      role: "Senior Accountant",
-      image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Nkurunziza%20Diane.jpg"
-    },
-    {
-      name: "MIHIGO CHARMANT",
-      role: "Legal & IP Compliance",
-      image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Mihigo%20Charmant.png"
-    },
-    {
-      name: "BYUSA DIAMANT GISELE",
-      role: "Legal & IP Compliance",
-      image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Byusa%20Gise.jpg"
-    },
-    {
-      name: "HENRY LUC MARIE MUGABE",
-      role: "Junior Accountant",
-      image: "https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Henry%20Mugabe%20.jpg"
     }
   ];
 
@@ -252,128 +217,94 @@ function AboutPage() {
             <StatCard number={10} label="Years of Experience" suffix="+" />
             <StatCard number={100} label="Satisfied Customers" suffix="+" />
             <StatCard number={12} label="Industries Served" />
-            <StatCard number={8} label="Expert Team Members" />
+            <StatCard number={1} label="Founder & CEO" />
           </div>
         </div>
       </div>
 
       {/* Team Section */}
+      {/* Founder Section */}
       <div className="py-20 md:py-32 bg-gradient-to-b from-military-50 via-white to-military-50 relative overflow-hidden">
-        {/* Animated background elements */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-10 w-32 h-32 bg-accent-500 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-40 h-40 bg-military-600 rounded-full blur-3xl animate-pulse delay-1000"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-accent-400 to-military-500 rounded-full blur-3xl animate-pulse delay-500"></div>
-        </div>
-        
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          {/* Herve Card */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16 md:mb-20"
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="bg-white rounded-3xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2"
           >
-            <div className="inline-flex items-center justify-center space-x-3 bg-gradient-to-r from-military-900 to-military-800 rounded-full px-6 md:px-8 py-2 md:py-3 mb-6 md:mb-8 shadow-xl">
-              <Users className="h-5 w-5 md:h-6 md:w-6 text-accent-400" />
-              <span className="text-accent-400 font-semibold text-base md:text-lg">Meet Our Expert Team</span>
-            </div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-military-900 mb-4 md:mb-6 font-playfair">The Faces Behind Your Success</h2>
-            <div className="h-1 md:h-2 w-24 md:w-32 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto mb-6 md:mb-8 rounded-full"></div>
-            <p className="text-base md:text-lg lg:text-xl text-military-700 max-w-4xl mx-auto leading-relaxed">
-              Our exceptional team of certified professionals brings together decades of experience, deep industry knowledge, and unwavering commitment to your financial success. Each member is dedicated to delivering excellence and building lasting partnerships.
-            </p>
-          </motion.div>
-
-          {/* Team Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 md:mb-20">
-            {teamMembers.map((member, index) => (
-              <TeamMemberCard 
-                key={index} 
-                {...member} 
-                delay={index * 0.1}
-              />
-            ))}
-          </div>
-
-          {/* Team Strength Showcase */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="relative"
-          >
-            {/* Background glow */}
-            <div className="absolute inset-0 bg-gradient-to-r from-accent-500/10 via-military-600/10 to-accent-500/10 rounded-3xl blur-xl"></div>
-            
-            <div className="relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-white/50">
-              <div className="text-center mb-8 md:mb-12">
-                <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-accent-500 to-accent-600 rounded-2xl mb-4 md:mb-6 shadow-xl">
-                  <Zap className="h-8 w-8 md:h-10 md:w-10 text-white" />
+            <div className="flex flex-col lg:flex-row">
+              {/* Image Section */}
+              <div className="lg:w-1/3 relative">
+                <div className="aspect-square lg:aspect-auto lg:h-full relative overflow-hidden">
+                  <img
+                    src="https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Herve%20Muvunyi.jpg"
+                    alt="Herve Clister Muvunyi"
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-military-900 mb-3 md:mb-4 font-playfair">Our Collective Strength</h3>
-                <p className="text-base md:text-lg text-military-600">United expertise driving extraordinary results</p>
               </div>
               
-              <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-                <div className="text-center group">
-                  <div className="relative mb-4 md:mb-6">
-                    <div className="bg-gradient-to-br from-accent-500 to-accent-600 w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center mx-auto shadow-xl group-hover:scale-110 transition-transform duration-300">
-                      <Award className="h-8 w-8 md:h-10 md:w-10 text-white" />
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-accent-500 to-accent-600 w-16 h-16 md:w-20 md:h-20 rounded-2xl mx-auto opacity-50 blur-lg group-hover:blur-xl transition-all duration-300"></div>
+              {/* Content Section */}
+              <div className="lg:w-2/3 p-8 md:p-12 lg:p-16">
+                <div className="mb-6">
+                  <div className="inline-flex items-center space-x-2 bg-accent-50 rounded-full px-4 py-2 mb-4">
+                    <Crown className="h-4 w-4 text-accent-600" />
+                    <span className="text-accent-600 font-medium text-xs">Founder & Chief Executive Officer</span>
                   </div>
-                  <h4 className="text-lg md:text-xl font-bold text-military-900 mb-2 md:mb-3">Elite Certifications</h4>
-                  <p className="text-sm md:text-base text-military-600 leading-relaxed">CPA, ACCA, and specialized industry certifications representing the highest standards of professional excellence</p>
+                  <h3 className="text-lg md:text-xl font-bold text-military-900 mb-3 font-playfair">
+                    Herve Clister Muvunyi
+                  </h3>
+                  <div className="h-0.5 w-12 bg-gradient-to-r from-accent-500 to-accent-600 rounded-full mb-4"></div>
                 </div>
                 
-                <div className="text-center group">
-                  <div className="relative mb-4 md:mb-6">
-                    <div className="bg-gradient-to-br from-military-600 to-military-700 w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center mx-auto shadow-xl group-hover:scale-110 transition-transform duration-300">
-                      <Globe2 className="h-8 w-8 md:h-10 md:w-10 text-white" />
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-military-600 to-military-700 w-16 h-16 md:w-20 md:h-20 rounded-2xl mx-auto opacity-50 blur-lg group-hover:blur-xl transition-all duration-300"></div>
-                  </div>
-                  <h4 className="text-lg md:text-xl font-bold text-military-900 mb-2 md:mb-3">Global Standards</h4>
-                  <p className="text-sm md:text-base text-military-600 leading-relaxed">International best practices seamlessly integrated with deep local market expertise and cultural understanding</p>
+                {/* About Paragraph */}
+                <div className="mb-6">
+                  <p className="text-military-700 leading-relaxed text-sm mb-4">
+                    With over a decade of experience in financial services and accounting, Herve Clister Muvunyi founded Dajah Group with a vision to transform how businesses approach financial management in East Africa. His expertise spans across multiple industries, from technology startups to established enterprises, helping organizations achieve sustainable growth through strategic financial guidance.
+                  </p>
+                  <p className="text-military-600 leading-relaxed text-sm">
+                    Herve's commitment to excellence and innovation has positioned Dajah Group as a trusted partner for businesses seeking comprehensive financial solutions. His leadership philosophy centers on building lasting relationships and delivering measurable results that drive long-term success.
+                  </p>
                 </div>
                 
-                <div className="text-center group">
-                  <div className="relative mb-4 md:mb-6">
-                    <div className="bg-gradient-to-br from-emerald-600 to-emerald-700 w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center mx-auto shadow-xl group-hover:scale-110 transition-transform duration-300">
-                      <TrendingUp className="h-8 w-8 md:h-10 md:w-10 text-white" />
+                {/* Key Skills */}
+                <div>
+                  <h4 className="text-base font-bold text-military-900 mb-4 font-playfair">Core Expertise</h4>
+                  <div className="grid md:grid-cols-2 gap-3">
+                    <div className="flex items-center space-x-3">
+                      <div className="bg-accent-100 w-6 h-6 rounded-full flex items-center justify-center">
+                        <CheckCircle className="h-3 w-3 text-accent-600" />
+                      </div>
+                      <span className="text-military-700 font-medium text-xs">Music business Administration</span>
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-emerald-600 to-emerald-700 w-16 h-16 md:w-20 md:h-20 rounded-2xl mx-auto opacity-50 blur-lg group-hover:blur-xl transition-all duration-300"></div>
-                  </div>
-                  <h4 className="text-lg md:text-xl font-bold text-military-900 mb-2 md:mb-3">Proven Results</h4>
-                  <p className="text-sm md:text-base text-military-600 leading-relaxed">Unified team approach delivering measurable success and sustainable growth for every client partnership</p>
-                </div>
-              </div>
-
-              {/* Success metrics */}
-              <div className="mt-8 md:mt-12 pt-6 md:pt-8 border-t border-military-100">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
-                  <div>
-                    <div className="text-2xl md:text-3xl font-bold text-accent-600 mb-2">100%</div>
-                    <div className="text-military-600 text-xs md:text-sm">Client Satisfaction</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl md:text-3xl font-bold text-military-700 mb-2">60+</div>
-                    <div className="text-military-600 text-xs md:text-sm">Years Combined Experience</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl md:text-3xl font-bold text-accent-600 mb-2">13</div>
-                    <div className="text-military-600 text-xs md:text-sm">Industry Specializations</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl md:text-3xl font-bold text-military-700 mb-2">24/7</div>
-                    <div className="text-military-600 text-xs md:text-sm">Expert Support</div>
+                    <div className="flex items-center space-x-3">
+                      <div className="bg-accent-100 w-6 h-6 rounded-full flex items-center justify-center">
+                        <CheckCircle className="h-3 w-3 text-accent-600" />
+                      </div>
+                      <span className="text-military-700 font-medium text-xs">International Tax Compliance</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="bg-accent-100 w-6 h-6 rounded-full flex items-center justify-center">
+                        <CheckCircle className="h-3 w-3 text-accent-600" />
+                      </div>
+                      <span className="text-military-700 font-medium text-xs">Business Process Optimization</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="bg-accent-100 w-6 h-6 rounded-full flex items-center justify-center">
+                        <CheckCircle className="h-3 w-3 text-accent-600" />
+                      </div>
+                      <span className="text-military-700 font-medium text-xs">Cross-Border Advisory</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </motion.div>
+
+
         </div>
       </div>
 

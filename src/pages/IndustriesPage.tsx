@@ -146,7 +146,7 @@ function IndustriesPage() {
     },
     {
       icon: Laptop,
-      name: "Technology and Innovation",
+      name: "Technology & ERP Services",
       description: "Forward-thinking financial solutions for tech companies and startups.",
       features: [
         "Startup financial planning",

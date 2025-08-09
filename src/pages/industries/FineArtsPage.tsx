@@ -121,6 +121,39 @@ function FineArtsPage() {
       </div>
 
       {/* CTA Section */}
+      {/* Industry Expert Section */}
+      <div className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-military-900 mb-2">Your Fine Arts & Antiques Expert</h2>
+            <p className="text-military-600">Leading expertise in fine arts and antiques financial management</p>
+          </div>
+          
+          <div className="max-w-md mx-auto">
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-military-100">
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src="/Profile Picture - Jean Luc.JPG"
+                    alt="Jean Luc Habimana"
+                    className="w-16 h-16 rounded-full object-cover border-2 border-accent-200"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg font-bold text-military-900 mb-1">Jean Luc Habimana</h3>
+                  <p className="text-sm text-accent-600 font-medium mb-2">Fine Arts & Antiques Specialist</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="inline-block bg-military-100 text-military-700 text-xs px-2 py-1 rounded-full">Art Valuation</span>
+                    <span className="inline-block bg-military-100 text-military-700 text-xs px-2 py-1 rounded-full">Collection Management</span>
+                    <span className="inline-block bg-military-100 text-military-700 text-xs px-2 py-1 rounded-full">Estate Planning</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="bg-gradient-to-br from-military-900 via-military-800 to-military-900 py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-gradient-to-r from-accent-500/20 to-military-600/20"></div>

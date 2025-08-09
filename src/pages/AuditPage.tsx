@@ -62,6 +62,102 @@ function AuditPage() {
         </div>
       </div>
 
+      {/* Audit & Accounting Experts Section */}
+      <div className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-primary-900 mb-2">Your Audit & Accounting Experts</h2>
+            <p className="text-primary-600">Leading expertise in audit and accounting services</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-primary-100">
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src="https://raw.githubusercontent.com/frabrice/dajah/refs/heads/main/Herve%20Muvunyi.jpg"
+                    alt="Herve Clister Muvunyi"
+                    className="w-16 h-16 rounded-full object-cover border-2 border-accent-200"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg font-bold text-primary-900 mb-1">Herve Clister Muvunyi</h3>
+                  <p className="text-sm text-accent-600 font-medium mb-2">Senior Accountant</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Financial Analysis</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Strategic Planning</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Leadership</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-primary-100">
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src="/WhatsApp Image 2025-06-15 at 16.25.17_15d6df48.jpg"
+                    alt="CPA Laurent Munyawera"
+                    className="w-16 h-16 rounded-full object-cover border-2 border-accent-200"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg font-bold text-primary-900 mb-1">CPA Laurent Munyawera</h3>
+                  <p className="text-sm text-accent-600 font-medium mb-2">Partner - Audit & Accounting</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Financial Audits</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Compliance</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Risk Assessment</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-primary-100">
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src="/Vedaste Nshimiyimana 123.jpeg"
+                    alt="Vedaste Nshimiyimana"
+                    className="w-16 h-16 rounded-full object-cover border-2 border-accent-200"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg font-bold text-primary-900 mb-1">Vedaste Nshimiyimana</h3>
+                  <p className="text-sm text-accent-600 font-medium mb-2">Audit & Accounting Specialist</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Financial Statements</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Internal Controls</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Assurance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-primary-100">
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src="/WhatsApp Image 2025-06-15 at 16.26.28_de10f61e.jpg"
+                    alt="Henry Luc Mugabe"
+                    className="w-16 h-16 rounded-full object-cover border-2 border-accent-200"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg font-bold text-primary-900 mb-1">Henry Luc Mugabe</h3>
+                  <p className="text-sm text-accent-600 font-medium mb-2">Junior Accountant</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Data Analysis</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Report Preparation</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Compliance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* CTA Section */}
       <div className="bg-primary-50 py-16 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -44,7 +44,7 @@ function Navbar() {
       items: [
         { name: 'Professional Services', icon: GraduationCap, path: '/industries/professional-services' },
         { name: 'Healthcare', icon: Stethoscope, path: '/industries/healthcare' },
-        { name: 'Technology', icon: Laptop, path: '/industries/technology' },
+        { name: 'Technology & ERP Services', icon: Laptop, path: '/industries/technology' },
         { name: 'Real Estate', icon: Home, path: '/industries/real-estate' },
         { name: 'Logistics & Transport', icon: Truck, path: '/industries/logistics-transport' }
       ]

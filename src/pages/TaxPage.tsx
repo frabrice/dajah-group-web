@@ -34,6 +34,39 @@ function TaxPage() {
         </div>
       </div>
 
+      {/* Tax Expert Section */}
+      <div className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-primary-900 mb-2">Your Tax Services Expert</h2>
+            <p className="text-primary-600">Leading expertise in tax planning and compliance</p>
+          </div>
+          
+          <div className="max-w-md mx-auto">
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-primary-100">
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src="/WhatsApp Image 2025-06-15 at 16.58.39_13141143.jpg"
+                    alt="Diane Nkurunziza"
+                    className="w-16 h-16 rounded-full object-cover border-2 border-accent-200"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg font-bold text-primary-900 mb-1">Diane Nkurunziza</h3>
+                  <p className="text-sm text-accent-600 font-medium mb-2">Tax Services Specialist</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Tax Planning</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">Compliance</span>
+                    <span className="inline-block bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded-full">International Tax</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* CTA Section */}
       <div className="bg-primary-50 py-16 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

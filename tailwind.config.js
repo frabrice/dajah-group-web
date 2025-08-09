@@ -46,7 +46,8 @@ export default {
       },
       fontFamily: {
         'playfair': ['Playfair Display', 'serif'],
-        'lato': ['Lato', 'sans-serif']
+        'lato': ['Lato', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif']
       },
       screens: {
         'xs': '475px',

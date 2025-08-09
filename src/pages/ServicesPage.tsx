@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Calculator, FileSpreadsheet, Receipt, Briefcase, HeadphonesIcon, GraduationCap, PiggyBank, LineChart, Target, BarChart3, Brain, PieChart, Database } from 'lucide-react';
+import { ArrowRight, Calculator, FileSpreadsheet, Receipt, Briefcase, HeadphonesIcon, GraduationCap, PiggyBank, LineChart, Target, BarChart3, Brain, PieChart, Database, User } from 'lucide-react';
 
 function ServiceCard({ title, description, icon: Icon, className = "" }) {
   return (
@@ -25,6 +25,38 @@ function CFOServiceCard({ title, description, icon: Icon }) {
       <div>
         <h4 className="text-lg font-semibold text-military-800 mb-2">{title}</h4>
         <p className="text-military-600">{description}</p>
+      </div>
+    </div>
+  );
+}
+
+function ExpertCard({ name, title, image, specialties }: { 
+  name: string; 
+  title: string; 
+  image: string;
+  specialties: string[];
+}) {
+  return (
+    <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-military-100">
+      <div className="flex items-center space-x-4">
+        <div className="flex-shrink-0">
+          <img
+            src={image}
+            alt={name}
+            className="w-16 h-16 rounded-full object-cover border-2 border-accent-200"
+          />
+        </div>
+        <div className="flex-1 min-w-0">
+          <h3 className="text-lg font-bold text-military-900 mb-1">{name}</h3>
+          <p className="text-sm text-accent-600 font-medium mb-2">{title}</p>
+          <div className="flex flex-wrap gap-1">
+            {specialties.map((specialty, index) => (
+              <span key={index} className="inline-block bg-military-100 text-military-700 text-xs px-2 py-1 rounded-full">
+                {specialty}
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -158,6 +190,50 @@ function ServicesPage() {
           </div>
         </div>
       </div>
+
+      {/* Experts Section */}
+      <section className="py-16 md:py-20 bg-military-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-military-900 mb-4">Meet Our Experts</h2>
+            <p className="text-base md:text-lg text-military-600 max-w-2xl mx-auto">
+              Our team of certified professionals brings years of experience and specialized expertise to serve your needs.
+            </p>
+          </div>
+
+          {/* Tax Expert */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-military-900 mb-6 text-center">Tax Services</h3>
+            <div className="max-w-md mx-auto">
+              <ExpertCard
+                name="Diane Nkurunziza"
+                title="Tax Services Specialist"
+                image="https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&q=80&w=150&h=150"
+                specialties={["Tax Planning", "Compliance", "International Tax"]}
+              />
+            </div>
+          </div>
+
+          {/* Audit & Accounting Experts */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-military-900 mb-6 text-center">Audit & Accounting</h3>
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <ExpertCard
+                name="CPA Laurent Munyawera"
+                title="Partner - Audit & Accounting"
+                image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150&h=150"
+                specialties={["Financial Audits", "Compliance", "Risk Assessment"]}
+              />
+              <ExpertCard
+                name="Vedaste Nshimiyimana"
+                title="Audit & Accounting Specialist"
+                image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150&h=150"
+                specialties={["Financial Statements", "Internal Controls", "Assurance"]}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <div className="bg-military-600 py-16">
