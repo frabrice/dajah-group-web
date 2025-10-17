@@ -49,11 +49,11 @@ function SolutionsPage() {
               <span className="text-yellow-500 font-medium">Our Solutions</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               A <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">360-Degree Solution</span> for Creators
             </h1>
 
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed">
               Everything you need to manage, monetize, and distribute your music globally
             </p>
           </motion.div>
@@ -74,13 +74,13 @@ function SolutionsPage() {
                 <div className="bg-yellow-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
                   <Shield className="h-10 w-10 text-yellow-500" />
                 </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   Music Administration & Publishing
                 </h2>
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                   We manage the complex global tasks of registering, monitoring, and collecting royalties for your compositions.
                 </p>
-                <p className="text-lg text-gray-400 mb-8">
+                <p className="text-base text-gray-400 mb-8">
                   Our comprehensive administration services ensure that every performance, stream, and use of your music is tracked and monetized across all territories worldwide.
                 </p>
               </div>
@@ -135,13 +135,13 @@ function SolutionsPage() {
                 <div className="bg-yellow-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
                   <FileMusic className="h-10 w-10 text-yellow-500" />
                 </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   Sync & Licensing
                 </h2>
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                   We pitch your music for film, TV, games, and ads—helping you earn beyond streaming.
                 </p>
-                <p className="text-lg text-gray-400">
+                <p className="text-base text-gray-400">
                   Our experienced licensing team actively places your music in major productions and advertising campaigns, creating valuable revenue streams beyond traditional royalties.
                 </p>
               </div>
@@ -164,10 +164,10 @@ function SolutionsPage() {
                 <div className="bg-yellow-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
                   <Radio className="h-10 w-10 text-yellow-500" />
                 </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   DajahTunes: The Distribution Advantage
                 </h2>
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                   Our proprietary platform for music distribution gives artists full control of their recorded music.
                 </p>
                 <a
@@ -210,10 +210,10 @@ function SolutionsPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Why Choose Our Solutions?
             </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
               Comprehensive services designed to maximize your music's earning potential
             </p>
           </motion.div>
@@ -247,7 +247,7 @@ function SolutionsPage() {
                 <div className="bg-yellow-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                   <benefit.icon className="h-8 w-8 text-yellow-500" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4">{benefit.title}</h3>
+                <h3 className="text-xl font-bold text-white mb-4">{benefit.title}</h3>
                 <p className="text-gray-400 leading-relaxed">{benefit.description}</p>
               </motion.div>
             ))}
@@ -264,10 +264,10 @@ function SolutionsPage() {
             transition={{ duration: 0.6 }}
             className="bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-2xl p-12 md:p-16 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-black mb-6">
               Ready to Maximize Your Music's Potential?
             </h2>
-            <p className="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-black/80 mb-8 max-w-2xl mx-auto">
               Join hundreds of creators who trust Dajah Group to manage their music rights and distribution worldwide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

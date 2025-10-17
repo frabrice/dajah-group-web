@@ -27,11 +27,11 @@ function TechnologyPage() {
               <span className="text-yellow-500 font-medium">Technology & Reach</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Smart Technology. <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Global Reach.</span>
             </h1>
 
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed">
               We ensure every stream, performance, and sync is accounted for—everywhere.
             </p>
           </motion.div>
@@ -47,10 +47,10 @@ function TechnologyPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Powered by Innovation
             </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
               Our proprietary systems and integrations with global PROs and DSPs streamline royalty management like never before
             </p>
           </motion.div>
@@ -99,7 +99,7 @@ function TechnologyPage() {
                 <div className="bg-yellow-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                   <feature.icon className="h-8 w-8 text-yellow-500" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4">{feature.title}</h3>
+                <h3 className="text-xl font-bold text-white mb-4">{feature.title}</h3>
                 <p className="text-gray-400 leading-relaxed">{feature.description}</p>
               </motion.div>
             ))}
@@ -116,7 +116,7 @@ function TechnologyPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               120+ Collection Territories
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
@@ -133,7 +133,7 @@ function TechnologyPage() {
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-3xl font-bold text-white mb-6">Global PRO Partnerships</h3>
+                <h3 className="text-2xl font-bold text-white mb-6">Global PRO Partnerships</h3>
                 <div className="space-y-4 mb-8">
                   {[
                     "BMI (United States)",
@@ -182,14 +182,14 @@ function TechnologyPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                 Built for the Modern Creator
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-yellow-500 to-yellow-600 mb-6"></div>
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              <p className="text-base text-gray-300 leading-relaxed mb-6">
                 Our technology platform is designed from the ground up to meet the needs of today's independent artists and songwriters.
               </p>
-              <p className="text-lg text-gray-400 leading-relaxed mb-8">
+              <p className="text-base text-gray-400 leading-relaxed mb-8">
                 From automatic metadata matching to intelligent royalty splitting, every feature is crafted to save you time and maximize your earnings.
               </p>
               <Link
@@ -228,7 +228,7 @@ function TechnologyPage() {
                 }
               ].map((item, index) => (
                 <div key={index} className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-yellow-500/50 transition-all duration-300">
-                  <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
+                  <h3 className="text-lg font-bold text-white mb-3">{item.title}</h3>
                   <p className="text-gray-400">{item.description}</p>
                 </div>
               ))}
@@ -246,10 +246,10 @@ function TechnologyPage() {
             transition={{ duration: 0.6 }}
             className="bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-2xl p-12 md:p-16 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-black mb-6">
               Experience the Power of Our Platform
             </h2>
-            <p className="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-black/80 mb-8 max-w-2xl mx-auto">
               Join creators worldwide who trust our technology to manage their music rights efficiently and transparently.
             </p>
             <Link

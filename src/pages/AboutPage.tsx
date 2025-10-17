@@ -33,11 +33,11 @@ function AboutPage() {
               <span className="text-yellow-500 font-medium">About Dajah Group</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Redefining Music <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Administration</span>
             </h1>
 
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed">
               From financial services to music industry leadership, we've evolved to become a trusted 360° partner for independent creators worldwide.
             </p>
           </motion.div>
@@ -53,12 +53,12 @@ function AboutPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-4xl font-bold text-white mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">Our Story</h2>
               <div className="w-20 h-1 bg-gradient-to-r from-yellow-500 to-yellow-600 mb-6"></div>
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              <p className="text-base text-gray-300 leading-relaxed mb-6">
                 Founded in 2018, Dajah Group began as a financial services firm with a vision to empower businesses across East Africa. As we grew, we recognized a critical gap in the music industry: creators were losing substantial earnings due to complex, opaque rights management systems.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-base text-gray-300 leading-relaxed">
                 This realization sparked our transformation into a specialized music administration and publishing company. Today, we combine our financial expertise with cutting-edge technology to help artists and songwriters navigate the complex world of music rights, ensuring they receive every dollar they've earned.
               </p>
             </motion.div>
@@ -78,7 +78,7 @@ function AboutPage() {
                         <div className="text-3xl font-bold text-yellow-500">{milestone.year}</div>
                       </div>
                       <div className="flex-1 pt-1">
-                        <h3 className="text-xl font-bold text-white mb-2">{milestone.event}</h3>
+                        <h3 className="text-lg font-bold text-white mb-2">{milestone.event}</h3>
                         <p className="text-gray-400">{milestone.description}</p>
                       </div>
                     </div>
@@ -103,8 +103,8 @@ function AboutPage() {
               <div className="bg-yellow-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <Target className="h-8 w-8 text-yellow-500" />
               </div>
-              <h3 className="text-3xl font-bold text-white mb-4">Our Vision</h3>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
+              <p className="text-base text-gray-300 leading-relaxed">
                 To be the most trusted and efficient global partner for independent songwriters and artists, revolutionizing how music rights are managed in the digital age.
               </p>
             </motion.div>
@@ -119,8 +119,8 @@ function AboutPage() {
               <div className="bg-yellow-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <Lightbulb className="h-8 w-8 text-yellow-500" />
               </div>
-              <h3 className="text-3xl font-bold text-white mb-4">Our Mission</h3>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
+              <p className="text-base text-gray-300 leading-relaxed">
                 To provide transparent, state-of-the-art administration, publishing, and distribution services that empower creators to retain ownership and maximize their earnings worldwide.
               </p>
             </motion.div>
@@ -137,8 +137,8 @@ function AboutPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Meet the Team</h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Meet the Team</h2>
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
               Led by industry experts passionate about empowering music creators
             </p>
           </motion.div>
@@ -153,7 +153,7 @@ function AboutPage() {
             >
               <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-white mb-2">Muvunyi</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Muvunyi</h3>
                 <p className="text-yellow-500 font-medium mb-4">CEO & Founder</p>
                 <p className="text-gray-400 leading-relaxed">
                   Leading the vision and strategic direction of Dajah Group's global operations.
@@ -170,7 +170,7 @@ function AboutPage() {
             >
               <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-white mb-2">Prince</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Prince</h3>
                 <p className="text-yellow-500 font-medium mb-4">Head of Publishing Administration</p>
                 <p className="text-gray-400 leading-relaxed">
                   Managing global music administration and royalty collection operations.
@@ -187,7 +187,7 @@ function AboutPage() {
             >
               <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-white mb-2">Fabrice</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Fabrice</h3>
                 <p className="text-yellow-500 font-medium mb-4">VP of Distribution (DajahTunes)</p>
                 <p className="text-gray-400 leading-relaxed">
                   Overseeing the strategic growth and technical innovation of our distribution platform.
@@ -204,7 +204,7 @@ function AboutPage() {
             >
               <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-white mb-2">Jean Luc</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Jean Luc</h3>
                 <p className="text-yellow-500 font-medium mb-4">Global Licensing Director</p>
                 <p className="text-gray-400 leading-relaxed">
                   Managing sync licensing opportunities and building strategic partnerships worldwide.
@@ -226,7 +226,7 @@ function AboutPage() {
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-4xl font-bold text-black mb-6">
+                <h2 className="text-3xl font-bold text-black mb-6">
                   Why Creators Choose Dajah Group
                 </h2>
                 <div className="space-y-4">
@@ -239,7 +239,7 @@ function AboutPage() {
                   ].map((benefit, index) => (
                     <div key={index} className="flex items-center space-x-3">
                       <CheckCircle className="h-6 w-6 text-black flex-shrink-0" />
-                      <span className="text-lg text-black/90">{benefit}</span>
+                      <span className="text-base text-black/90">{benefit}</span>
                     </div>
                   ))}
                 </div>

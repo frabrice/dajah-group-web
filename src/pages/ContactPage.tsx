@@ -45,11 +45,11 @@ function ContactPage() {
               <span className="text-yellow-500 font-medium">Get In Touch</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Let's Talk About Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Music</span>
             </h1>
 
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed">
               Ready to take control of your music rights? We'd love to hear from you.
             </p>
           </motion.div>
@@ -110,7 +110,7 @@ function ContactPage() {
               <div>
                 <div className="flex items-center space-x-3 mb-6">
                   <MapPin className="h-8 w-8 text-yellow-500" />
-                  <h3 className="text-3xl font-bold text-white">Our Office</h3>
+                  <h3 className="text-2xl font-bold text-white">Our Office</h3>
                 </div>
                 <div className="space-y-4 text-gray-300">
                   <div>
@@ -129,7 +129,7 @@ function ContactPage() {
               </div>
 
               <div className="bg-black/50 border border-gray-800 rounded-xl p-8">
-                <h4 className="text-xl font-bold text-white mb-4">Global Presence</h4>
+                <h4 className="text-lg font-bold text-white mb-4">Global Presence</h4>
                 <p className="text-gray-400 mb-6">
                   While headquartered in Kigali, Rwanda, our services extend to creators in over 120 countries worldwide through our network of global partners and collection societies.
                 </p>
@@ -154,10 +154,10 @@ function ContactPage() {
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-4xl font-bold text-black mb-6">
+                <h2 className="text-3xl font-bold text-black mb-6">
                   Ready to Get Started?
                 </h2>
-                <p className="text-xl text-black/80 mb-8 leading-relaxed">
+                <p className="text-lg text-black/80 mb-8 leading-relaxed">
                   Book a consultation with our team to discuss how we can help you maximize your music's earning potential worldwide.
                 </p>
                 <ul className="space-y-4 text-black/90">
