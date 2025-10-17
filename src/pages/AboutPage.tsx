@@ -143,7 +143,7 @@ function AboutPage() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -153,10 +153,10 @@ function AboutPage() {
             >
               <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-white mb-2">Muvunyi Prince</h3>
-                <p className="text-yellow-500 font-medium mb-4">CEO & Founder / Head of Publishing Administration</p>
+                <h3 className="text-2xl font-bold text-white mb-2">Muvunyi</h3>
+                <p className="text-yellow-500 font-medium mb-4">CEO & Founder</p>
                 <p className="text-gray-400 leading-relaxed">
-                  Leading the vision and strategic direction of Dajah Group's global music administration operations.
+                  Leading the vision and strategic direction of Dajah Group's global operations.
                 </p>
               </div>
             </motion.div>
@@ -165,7 +165,24 @@ function AboutPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              transition={{ duration: 0.6, delay: 0.15 }}
+              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-yellow-500/50 transition-all duration-300"
+            >
+              <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-white mb-2">Prince</h3>
+                <p className="text-yellow-500 font-medium mb-4">Head of Publishing Administration</p>
+                <p className="text-gray-400 leading-relaxed">
+                  Managing global music administration and royalty collection operations.
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
               className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-yellow-500/50 transition-all duration-300"
             >
               <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
@@ -182,7 +199,7 @@ function AboutPage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+              transition={{ duration: 0.6, delay: 0.45 }}
               className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-yellow-500/50 transition-all duration-300"
             >
               <div className="aspect-square bg-gradient-to-br from-yellow-500/20 to-transparent"></div>
