@@ -30,13 +30,13 @@ function Navbar() {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled
-        ? 'bg-black/95 backdrop-blur-lg shadow-lg border-b border-yellow-500/20'
+        ? 'bg-black/95 backdrop-blur-lg shadow-lg border-b border-purple-500/20'
         : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 group">
-            <div className="bg-yellow-500 p-2 rounded-lg group-hover:bg-yellow-400 transition-colors">
+            <div className="bg-purple-500 p-2 rounded-lg group-hover:bg-purple-400 transition-colors">
               <Music className="h-6 w-6 text-black" />
             </div>
             <div>
@@ -45,7 +45,7 @@ function Navbar() {
               }`}>
                 Dajah Group
               </h1>
-              <p className="text-xs text-yellow-500 tracking-wider">
+              <p className="text-xs text-purple-500 tracking-wider">
                 Music Administration
               </p>
             </div>
@@ -65,10 +65,10 @@ function Navbar() {
                 onClick={handleLinkClick}
                 className={`text-sm font-medium transition-colors ${
                   location.pathname === link.path
-                    ? 'text-yellow-500'
+                    ? 'text-purple-500'
                     : isHomePage && !isScrolled
-                    ? 'text-white hover:text-yellow-400'
-                    : 'text-gray-300 hover:text-yellow-400'
+                    ? 'text-white hover:text-purple-400'
+                    : 'text-gray-300 hover:text-purple-400'
                 }`}
               >
                 {link.name}
@@ -87,7 +87,7 @@ function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-yellow-500/20">
+          <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-purple-500/20">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {[
                 { name: 'Home', path: '/' },
@@ -101,8 +101,8 @@ function Navbar() {
                   to={link.path}
                   className={`block px-3 py-3 rounded-md text-base font-medium transition-colors ${
                     location.pathname === link.path
-                      ? 'text-yellow-500 bg-yellow-500/10'
-                      : 'text-gray-300 hover:text-yellow-400 hover:bg-yellow-500/5'
+                      ? 'text-purple-500 bg-purple-500/10'
+                      : 'text-gray-300 hover:text-purple-400 hover:bg-purple-500/5'
                   }`}
                   onClick={handleLinkClick}
                 >

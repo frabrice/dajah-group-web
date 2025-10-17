@@ -10,10 +10,10 @@ function ContactCard({ icon: Icon, title, children, className = "" }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className={`bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-yellow-500/50 transition-all duration-300 ${className}`}
+      className={`bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-purple-500/50 transition-all duration-300 ${className}`}
     >
-      <div className="bg-yellow-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-        <Icon className="h-8 w-8 text-yellow-500" />
+      <div className="bg-purple-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+        <Icon className="h-8 w-8 text-purple-500" />
       </div>
       <h3 className="text-xl font-bold text-white mb-4">{title}</h3>
       {children}
@@ -30,7 +30,7 @@ function ContactPage() {
     <div className="min-h-screen bg-black pt-16">
       <section className="relative bg-gradient-to-b from-gray-900 to-black text-white py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-yellow-500 rounded-full filter blur-3xl"></div>
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,13 +40,13 @@ function ContactPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="inline-flex items-center space-x-2 bg-yellow-500/10 backdrop-blur-sm border border-yellow-500/20 rounded-full px-6 py-3 mb-8">
-              <Music className="h-5 w-5 text-yellow-500" />
-              <span className="text-yellow-500 font-medium">Get In Touch</span>
+            <div className="inline-flex items-center space-x-2 bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 rounded-full px-6 py-3 mb-8">
+              <Music className="h-5 w-5 text-purple-500" />
+              <span className="text-purple-500 font-medium">Get In Touch</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Let's Talk About Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Music</span>
+              Let's Talk About Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600">Music</span>
             </h1>
 
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -63,7 +63,7 @@ function ContactPage() {
               <div className="space-y-4">
                 <div>
                   <p className="text-gray-400 mb-2 text-sm">Main Office:</p>
-                  <a href="tel:+250795450640" className="text-yellow-500 hover:text-yellow-400 transition-colors text-lg font-semibold block">
+                  <a href="tel:+250795450640" className="text-purple-500 hover:text-purple-400 transition-colors text-lg font-semibold block">
                     +250 795 450 640
                   </a>
                 </div>
@@ -74,7 +74,7 @@ function ContactPage() {
               <div className="space-y-4">
                 <div>
                   <p className="text-gray-400 mb-2 text-sm">General Inquiries:</p>
-                  <a href="mailto:info@dajahgroup.com" className="text-yellow-500 hover:text-yellow-400 transition-colors text-lg font-semibold break-all block">
+                  <a href="mailto:info@dajahgroup.com" className="text-purple-500 hover:text-purple-400 transition-colors text-lg font-semibold break-all block">
                     info@dajahgroup.com
                   </a>
                 </div>
@@ -104,12 +104,12 @@ function ContactPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-2xl p-12 hover:border-yellow-500/50 transition-all duration-300"
+            className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-2xl p-12 hover:border-purple-500/50 transition-all duration-300"
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="flex items-center space-x-3 mb-6">
-                  <MapPin className="h-8 w-8 text-yellow-500" />
+                  <MapPin className="h-8 w-8 text-purple-500" />
                   <h3 className="text-2xl font-bold text-white">Our Office</h3>
                 </div>
                 <div className="space-y-4 text-gray-300">
@@ -121,7 +121,7 @@ function ContactPage() {
                     </p>
                   </div>
                   <div>
-                    <a href="tel:+250795450640" className="text-yellow-500 hover:text-yellow-400 transition-colors font-semibold">
+                    <a href="tel:+250795450640" className="text-purple-500 hover:text-purple-400 transition-colors font-semibold">
                       +250 795 450 640
                     </a>
                   </div>
@@ -133,8 +133,8 @@ function ContactPage() {
                 <p className="text-gray-400 mb-6">
                   While headquartered in Kigali, Rwanda, our services extend to creators in over 120 countries worldwide through our network of global partners and collection societies.
                 </p>
-                <div className="text-center bg-yellow-500/10 rounded-lg p-6">
-                  <div className="text-5xl font-bold text-yellow-500 mb-2">120+</div>
+                <div className="text-center bg-purple-500/10 rounded-lg p-6">
+                  <div className="text-5xl font-bold text-purple-500 mb-2">120+</div>
                   <div className="text-gray-300">Countries Served</div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ function ContactPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-2xl p-12 md:p-16"
+            className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl p-12 md:p-16"
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -190,7 +190,7 @@ function ContactPage() {
                 <div className="space-y-4">
                   <a
                     href="tel:+250795450640"
-                    className="block w-full px-8 py-4 bg-black text-yellow-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
+                    className="block w-full px-8 py-4 bg-black text-purple-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
                   >
                     Call Now
                   </a>
