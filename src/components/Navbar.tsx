@@ -30,13 +30,13 @@ function Navbar() {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled
-        ? 'bg-black/95 backdrop-blur-lg shadow-lg border-b border-teal-500/20'
+        ? 'bg-black/95 backdrop-blur-lg shadow-lg border-b border-blue-500/20'
         : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 group">
-            <div className="bg-teal-500 p-2 rounded-lg group-hover:bg-teal-400 transition-colors">
+            <div className="bg-blue-500 p-2 rounded-lg group-hover:bg-blue-400 transition-colors">
               <Music className="h-6 w-6 text-black" />
             </div>
             <div>
@@ -45,7 +45,7 @@ function Navbar() {
               }`}>
                 Dajah Group
               </h1>
-              <p className="text-xs text-teal-500 tracking-wider">
+              <p className="text-xs text-blue-500 tracking-wider">
                 Music Administration
               </p>
             </div>
@@ -65,10 +65,10 @@ function Navbar() {
                 onClick={handleLinkClick}
                 className={`text-sm font-medium transition-colors ${
                   location.pathname === link.path
-                    ? 'text-teal-500'
+                    ? 'text-blue-500'
                     : isHomePage && !isScrolled
-                    ? 'text-white hover:text-teal-400'
-                    : 'text-gray-300 hover:text-teal-400'
+                    ? 'text-white hover:text-blue-400'
+                    : 'text-gray-300 hover:text-blue-400'
                 }`}
               >
                 {link.name}
@@ -87,7 +87,7 @@ function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-teal-500/20">
+          <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-blue-500/20">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {[
                 { name: 'Home', path: '/' },
@@ -101,8 +101,8 @@ function Navbar() {
                   to={link.path}
                   className={`block px-3 py-3 rounded-md text-base font-medium transition-colors ${
                     location.pathname === link.path
-                      ? 'text-teal-500 bg-teal-500/10'
-                      : 'text-gray-300 hover:text-teal-400 hover:bg-teal-500/5'
+                      ? 'text-blue-500 bg-blue-500/10'
+                      : 'text-gray-300 hover:text-blue-400 hover:bg-blue-500/5'
                   }`}
                   onClick={handleLinkClick}
                 >

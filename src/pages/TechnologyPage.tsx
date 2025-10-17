@@ -12,7 +12,7 @@ function TechnologyPage() {
     <div className="min-h-screen bg-black pt-16">
       <section className="relative bg-gradient-to-b from-gray-900 to-black text-white py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-teal-500 rounded-full filter blur-3xl animate-pulse"></div>
+          <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl animate-pulse"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,13 +22,13 @@ function TechnologyPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="inline-flex items-center space-x-2 bg-teal-500/10 backdrop-blur-sm border border-teal-500/20 rounded-full px-6 py-3 mb-8">
-              <Zap className="h-5 w-5 text-teal-500" />
-              <span className="text-teal-500 font-medium">Technology & Reach</span>
+            <div className="inline-flex items-center space-x-2 bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 rounded-full px-6 py-3 mb-8">
+              <Zap className="h-5 w-5 text-blue-500" />
+              <span className="text-blue-500 font-medium">Technology & Reach</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Smart Technology. <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-600">Global Reach.</span>
+              Smart Technology. <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">Global Reach.</span>
             </h1>
 
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -94,10 +94,10 @@ function TechnologyPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-teal-500/50 transition-all duration-300"
+                className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-blue-500/50 transition-all duration-300"
               >
-                <div className="bg-teal-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                  <feature.icon className="h-8 w-8 text-teal-500" />
+                <div className="bg-blue-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                  <feature.icon className="h-8 w-8 text-blue-500" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">{feature.title}</h3>
                 <p className="text-gray-400 leading-relaxed">{feature.description}</p>
@@ -129,7 +129,7 @@ function TechnologyPage() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-br from-black to-gray-900 border-2 border-teal-500/30 rounded-3xl p-12 md:p-16"
+            className="bg-gradient-to-br from-black to-gray-900 border-2 border-blue-500/30 rounded-3xl p-12 md:p-16"
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -145,7 +145,7 @@ function TechnologyPage() {
                     "And 120+ more worldwide"
                   ].map((pro, index) => (
                     <div key={index} className="flex items-center space-x-3">
-                      <MapPin className="h-5 w-5 text-teal-500 flex-shrink-0" />
+                      <MapPin className="h-5 w-5 text-blue-500 flex-shrink-0" />
                       <span className="text-gray-300">{pro}</span>
                     </div>
                   ))}
@@ -154,16 +154,16 @@ function TechnologyPage() {
 
               <div className="bg-black/50 border border-gray-800 rounded-2xl p-8">
                 <div className="text-center mb-6">
-                  <div className="text-7xl font-bold text-teal-500 mb-4">120+</div>
+                  <div className="text-7xl font-bold text-blue-500 mb-4">120+</div>
                   <div className="text-2xl text-white">Countries</div>
                 </div>
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="bg-gray-900 rounded-lg p-4">
-                    <div className="text-3xl font-bold text-teal-500 mb-2">50+</div>
+                    <div className="text-3xl font-bold text-blue-500 mb-2">50+</div>
                     <div className="text-sm text-gray-400">Collection Societies</div>
                   </div>
                   <div className="bg-gray-900 rounded-lg p-4">
-                    <div className="text-3xl font-bold text-teal-500 mb-2">24/7</div>
+                    <div className="text-3xl font-bold text-blue-500 mb-2">24/7</div>
                     <div className="text-sm text-gray-400">Monitoring</div>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ function TechnologyPage() {
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                 Built for the Modern Creator
               </h2>
-              <div className="w-20 h-1 bg-gradient-to-r from-teal-500 to-teal-600 mb-6"></div>
+              <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mb-6"></div>
               <p className="text-base text-gray-300 leading-relaxed mb-6">
                 Our technology platform is designed from the ground up to meet the needs of today's independent artists and songwriters.
               </p>
@@ -195,7 +195,7 @@ function TechnologyPage() {
               <Link
                 to="/solutions"
                 onClick={scrollToTop}
-                className="inline-flex items-center px-8 py-4 bg-teal-500 text-black font-semibold rounded-lg hover:bg-teal-400 transition-all duration-300"
+                className="inline-flex items-center px-8 py-4 bg-blue-500 text-black font-semibold rounded-lg hover:bg-blue-400 transition-all duration-300"
               >
                 Explore Our Solutions
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -227,7 +227,7 @@ function TechnologyPage() {
                   description: "Get paid quickly with streamlined collection processes"
                 }
               ].map((item, index) => (
-                <div key={index} className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-teal-500/50 transition-all duration-300">
+                <div key={index} className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500/50 transition-all duration-300">
                   <h3 className="text-lg font-bold text-white mb-3">{item.title}</h3>
                   <p className="text-gray-400">{item.description}</p>
                 </div>
@@ -244,7 +244,7 @@ function TechnologyPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl p-12 md:p-16 text-center"
+            className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl p-12 md:p-16 text-center"
           >
             <h2 className="text-2xl md:text-3xl font-bold text-black mb-6">
               Experience the Power of Our Platform
@@ -255,7 +255,7 @@ function TechnologyPage() {
             <Link
               to="/contact"
               onClick={scrollToTop}
-              className="inline-flex items-center px-8 py-4 bg-black text-teal-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
+              className="inline-flex items-center px-8 py-4 bg-black text-blue-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
             >
               Get Started Today
               <ArrowRight className="ml-2 h-5 w-5" />
