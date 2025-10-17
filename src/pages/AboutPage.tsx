@@ -18,7 +18,7 @@ function AboutPage() {
     <div className="min-h-screen bg-black pt-16">
       <section className="relative bg-gradient-to-b from-gray-900 to-black text-white py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl"></div>
+          <div className="absolute top-0 right-0 w-96 h-96 bg-teal-500 rounded-full filter blur-3xl"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,13 +28,13 @@ function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="inline-flex items-center space-x-2 bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 rounded-full px-6 py-3 mb-8">
-              <Music className="h-5 w-5 text-purple-500" />
-              <span className="text-purple-500 font-medium">About Dajah Group</span>
+            <div className="inline-flex items-center space-x-2 bg-teal-500/10 backdrop-blur-sm border border-teal-500/20 rounded-full px-6 py-3 mb-8">
+              <Music className="h-5 w-5 text-teal-500" />
+              <span className="text-teal-500 font-medium">About Dajah Group</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Redefining Music <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600">Administration</span>
+              Redefining Music <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-600">Administration</span>
             </h1>
 
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -54,7 +54,7 @@ function AboutPage() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl font-bold text-white mb-6">Our Story</h2>
-              <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-purple-600 mb-6"></div>
+              <div className="w-20 h-1 bg-gradient-to-r from-teal-500 to-teal-600 mb-6"></div>
               <p className="text-base text-gray-300 leading-relaxed mb-6">
                 Founded in 2018, Dajah Group began as a financial services firm with a vision to empower businesses across East Africa. As we grew, we recognized a critical gap in the music industry: creators were losing substantial earnings due to complex, opaque rights management systems.
               </p>
@@ -70,12 +70,12 @@ function AboutPage() {
               transition={{ duration: 0.8 }}
               className="relative"
             >
-              <div className="bg-gradient-to-br from-purple-500/20 to-purple-600/20 border border-purple-500/30 rounded-2xl p-8">
+              <div className="bg-gradient-to-br from-teal-500/20 to-teal-600/20 border border-teal-500/30 rounded-2xl p-8">
                 <div className="space-y-6">
                   {milestones.map((milestone, index) => (
                     <div key={index} className="flex items-start space-x-4">
                       <div className="flex-shrink-0 w-20">
-                        <div className="text-3xl font-bold text-purple-500">{milestone.year}</div>
+                        <div className="text-3xl font-bold text-teal-500">{milestone.year}</div>
                       </div>
                       <div className="flex-1 pt-1">
                         <h3 className="text-lg font-bold text-white mb-2">{milestone.event}</h3>
@@ -98,10 +98,10 @@ function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-black border border-gray-800 rounded-2xl p-8 hover:border-purple-500/50 transition-all duration-300"
+              className="bg-black border border-gray-800 rounded-2xl p-8 hover:border-teal-500/50 transition-all duration-300"
             >
-              <div className="bg-purple-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Target className="h-8 w-8 text-purple-500" />
+              <div className="bg-teal-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                <Target className="h-8 w-8 text-teal-500" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
               <p className="text-base text-gray-300 leading-relaxed">
@@ -114,10 +114,10 @@ function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-black border border-gray-800 rounded-2xl p-8 hover:border-purple-500/50 transition-all duration-300"
+              className="bg-black border border-gray-800 rounded-2xl p-8 hover:border-teal-500/50 transition-all duration-300"
             >
-              <div className="bg-purple-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Lightbulb className="h-8 w-8 text-purple-500" />
+              <div className="bg-teal-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                <Lightbulb className="h-8 w-8 text-teal-500" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-base text-gray-300 leading-relaxed">
@@ -149,12 +149,12 @@ function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all duration-300"
+              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-teal-500/50 transition-all duration-300"
             >
-              <div className="aspect-square bg-gradient-to-br from-purple-500/20 to-transparent"></div>
+              <div className="aspect-square bg-gradient-to-br from-teal-500/20 to-transparent"></div>
               <div className="p-8">
                 <h3 className="text-xl font-bold text-white mb-2">Muvunyi</h3>
-                <p className="text-purple-500 font-medium mb-4">CEO & Founder</p>
+                <p className="text-teal-500 font-medium mb-4">CEO & Founder</p>
                 <p className="text-gray-400 leading-relaxed">
                   Leading the vision and strategic direction of Dajah Group's global operations.
                 </p>
@@ -166,12 +166,12 @@ function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.15 }}
-              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all duration-300"
+              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-teal-500/50 transition-all duration-300"
             >
-              <div className="aspect-square bg-gradient-to-br from-purple-500/20 to-transparent"></div>
+              <div className="aspect-square bg-gradient-to-br from-teal-500/20 to-transparent"></div>
               <div className="p-8">
                 <h3 className="text-xl font-bold text-white mb-2">Prince</h3>
-                <p className="text-purple-500 font-medium mb-4">Head of Publishing Administration</p>
+                <p className="text-teal-500 font-medium mb-4">Head of Publishing Administration</p>
                 <p className="text-gray-400 leading-relaxed">
                   Managing global music administration and royalty collection operations.
                 </p>
@@ -183,12 +183,12 @@ function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all duration-300"
+              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-teal-500/50 transition-all duration-300"
             >
-              <div className="aspect-square bg-gradient-to-br from-purple-500/20 to-transparent"></div>
+              <div className="aspect-square bg-gradient-to-br from-teal-500/20 to-transparent"></div>
               <div className="p-8">
                 <h3 className="text-xl font-bold text-white mb-2">Fabrice</h3>
-                <p className="text-purple-500 font-medium mb-4">VP of Distribution (DajahTunes)</p>
+                <p className="text-teal-500 font-medium mb-4">VP of Distribution (DajahTunes)</p>
                 <p className="text-gray-400 leading-relaxed">
                   Overseeing the strategic growth and technical innovation of our distribution platform.
                 </p>
@@ -200,12 +200,12 @@ function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.45 }}
-              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all duration-300"
+              className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-2xl overflow-hidden hover:border-teal-500/50 transition-all duration-300"
             >
-              <div className="aspect-square bg-gradient-to-br from-purple-500/20 to-transparent"></div>
+              <div className="aspect-square bg-gradient-to-br from-teal-500/20 to-transparent"></div>
               <div className="p-8">
                 <h3 className="text-xl font-bold text-white mb-2">Jean Luc</h3>
-                <p className="text-purple-500 font-medium mb-4">Global Licensing Director</p>
+                <p className="text-teal-500 font-medium mb-4">Global Licensing Director</p>
                 <p className="text-gray-400 leading-relaxed">
                   Managing sync licensing opportunities and building strategic partnerships worldwide.
                 </p>
@@ -222,7 +222,7 @@ function AboutPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl p-12 md:p-16"
+            className="bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl p-12 md:p-16"
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -252,7 +252,7 @@ function AboutPage() {
                   <Link
                     to="/contact"
                     onClick={scrollToTop}
-                    className="inline-flex items-center px-8 py-4 bg-black text-purple-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
+                    className="inline-flex items-center px-8 py-4 bg-black text-teal-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
                   >
                     Join Us Today
                     <ArrowRight className="ml-2 h-5 w-5" />

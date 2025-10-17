@@ -34,7 +34,7 @@ function SolutionsPage() {
     <div className="min-h-screen bg-black pt-16">
       <section className="relative bg-gradient-to-b from-gray-900 to-black text-white py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl animate-pulse"></div>
+          <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-teal-500 rounded-full filter blur-3xl animate-pulse"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -44,13 +44,13 @@ function SolutionsPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="inline-flex items-center space-x-2 bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 rounded-full px-6 py-3 mb-8">
-              <Award className="h-5 w-5 text-purple-500" />
-              <span className="text-purple-500 font-medium">Our Solutions</span>
+            <div className="inline-flex items-center space-x-2 bg-teal-500/10 backdrop-blur-sm border border-teal-500/20 rounded-full px-6 py-3 mb-8">
+              <Award className="h-5 w-5 text-teal-500" />
+              <span className="text-teal-500 font-medium">Our Solutions</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              A <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600">360-Degree Solution</span> for Creators
+              A <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-600">360-Degree Solution</span> for Creators
             </h1>
 
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -67,12 +67,12 @@ function SolutionsPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-3xl p-12 md:p-16 hover:border-purple-500/50 transition-all duration-300"
+            className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-3xl p-12 md:p-16 hover:border-teal-500/50 transition-all duration-300"
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="bg-purple-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
-                  <Shield className="h-10 w-10 text-purple-500" />
+                <div className="bg-teal-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
+                  <Shield className="h-10 w-10 text-teal-500" />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   Music Administration & Publishing
@@ -95,7 +95,7 @@ function SolutionsPage() {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     className="flex items-start space-x-4 bg-black/50 border border-gray-800 rounded-lg p-4"
                   >
-                    <CheckCircle className="h-6 w-6 text-purple-500 flex-shrink-0 mt-1" />
+                    <CheckCircle className="h-6 w-6 text-teal-500 flex-shrink-0 mt-1" />
                     <span className="text-gray-300">{feature}</span>
                   </motion.div>
                 ))}
@@ -112,7 +112,7 @@ function SolutionsPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-br from-black to-gray-900 border border-gray-800 rounded-3xl p-12 md:p-16 hover:border-purple-500/50 transition-all duration-300"
+            className="bg-gradient-to-br from-black to-gray-900 border border-gray-800 rounded-3xl p-12 md:p-16 hover:border-teal-500/50 transition-all duration-300"
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 space-y-4">
@@ -125,15 +125,15 @@ function SolutionsPage() {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     className="flex items-start space-x-4 bg-gray-900/50 border border-gray-800 rounded-lg p-4"
                   >
-                    <CheckCircle className="h-6 w-6 text-purple-500 flex-shrink-0 mt-1" />
+                    <CheckCircle className="h-6 w-6 text-teal-500 flex-shrink-0 mt-1" />
                     <span className="text-gray-300">{feature}</span>
                   </motion.div>
                 ))}
               </div>
 
               <div className="order-1 md:order-2">
-                <div className="bg-purple-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
-                  <FileMusic className="h-10 w-10 text-purple-500" />
+                <div className="bg-teal-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
+                  <FileMusic className="h-10 w-10 text-teal-500" />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   Sync & Licensing
@@ -157,12 +157,12 @@ function SolutionsPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-br from-gray-900 to-black border-2 border-purple-500/30 rounded-3xl p-12 md:p-16"
+            className="bg-gradient-to-br from-gray-900 to-black border-2 border-teal-500/30 rounded-3xl p-12 md:p-16"
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="bg-purple-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
-                  <Radio className="h-10 w-10 text-purple-500" />
+                <div className="bg-teal-500/10 w-20 h-20 rounded-xl flex items-center justify-center mb-8">
+                  <Radio className="h-10 w-10 text-teal-500" />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   DajahTunes: The Distribution Advantage
@@ -174,7 +174,7 @@ function SolutionsPage() {
                   href="https://www.dajahtunes.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-8 py-4 bg-purple-500 text-black font-semibold rounded-lg hover:bg-purple-400 transition-all duration-300 transform hover:-translate-y-1"
+                  className="inline-flex items-center px-8 py-4 bg-teal-500 text-black font-semibold rounded-lg hover:bg-teal-400 transition-all duration-300 transform hover:-translate-y-1"
                 >
                   Visit DajahTunes.com
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -189,9 +189,9 @@ function SolutionsPage() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: index * 0.1 }}
-                    className="flex items-start space-x-4 bg-black/50 border border-purple-500/30 rounded-lg p-4"
+                    className="flex items-start space-x-4 bg-black/50 border border-teal-500/30 rounded-lg p-4"
                   >
-                    <CheckCircle className="h-6 w-6 text-purple-500 flex-shrink-0 mt-1" />
+                    <CheckCircle className="h-6 w-6 text-teal-500 flex-shrink-0 mt-1" />
                     <span className="text-gray-300">{feature}</span>
                   </motion.div>
                 ))}
@@ -242,10 +242,10 @@ function SolutionsPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-purple-500/50 transition-all duration-300"
+                className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-teal-500/50 transition-all duration-300"
               >
-                <div className="bg-purple-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                  <benefit.icon className="h-8 w-8 text-purple-500" />
+                <div className="bg-teal-500/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                  <benefit.icon className="h-8 w-8 text-teal-500" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">{benefit.title}</h3>
                 <p className="text-gray-400 leading-relaxed">{benefit.description}</p>
@@ -262,7 +262,7 @@ function SolutionsPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl p-12 md:p-16 text-center"
+            className="bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl p-12 md:p-16 text-center"
           >
             <h2 className="text-2xl md:text-3xl font-bold text-black mb-6">
               Ready to Maximize Your Music's Potential?
@@ -274,7 +274,7 @@ function SolutionsPage() {
               <Link
                 to="/contact"
                 onClick={scrollToTop}
-                className="inline-flex items-center px-8 py-4 bg-black text-purple-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
+                className="inline-flex items-center px-8 py-4 bg-black text-teal-500 font-semibold rounded-lg hover:bg-gray-900 transition-all duration-300"
               >
                 Get Started Today
                 <ArrowRight className="ml-2 h-5 w-5" />
