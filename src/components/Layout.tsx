@@ -128,7 +128,7 @@ export default function Layout() {
                 <span className="font-cinzel font-bold text-2xl text-white">DAJAH CONSULTANCY</span>
               </div>
               <p className="mt-4 text-military-200">
-                Professional accounting and financial advisory services for businesses of all sizes.
+                Professional music administration and publishing services for creators worldwide.
               </p>
             </div>
             <div>
