@@ -36,11 +36,16 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 group">
-            <img
-              src="/WhatsApp Image 2025-10-18 at 06.51.10_10850c31.jpg"
-              alt="Dajah Group Logo"
-              className="h-14 w-auto object-contain transition-transform group-hover:scale-105"
-            />
+            <div>
+              <h1 className={`text-2xl font-bold ${
+                isHomePage && !isScrolled ? 'text-white' : 'text-white'
+              }`}>
+                Dajah Group
+              </h1>
+              <p className="text-xs text-blue-500 tracking-wider">
+                Music Administration
+              </p>
+            </div>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
