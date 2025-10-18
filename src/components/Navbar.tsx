@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown, ChevronRight, Music } from 'lucide-react';
+import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,19 +36,11 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 group">
-            <div className="bg-blue-500 p-2 rounded-lg group-hover:bg-blue-400 transition-colors">
-              <Music className="h-6 w-6 text-black" />
-            </div>
-            <div>
-              <h1 className={`text-2xl font-bold ${
-                isHomePage && !isScrolled ? 'text-white' : 'text-white'
-              }`}>
-                Dajah Group
-              </h1>
-              <p className="text-xs text-blue-500 tracking-wider">
-                Music Administration
-              </p>
-            </div>
+            <img
+              src="/WhatsApp Image 2025-10-18 at 06.51.10_10850c31.jpg"
+              alt="Dajah Group Logo"
+              className="h-14 w-auto object-contain transition-transform group-hover:scale-105"
+            />
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
