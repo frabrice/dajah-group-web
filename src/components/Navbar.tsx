@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
+import { Menu, X, ChevronDown, ChevronRight, Radio } from 'lucide-react';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,6 +36,9 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 group">
+            <div className="bg-blue-500 p-2 rounded-lg group-hover:bg-blue-400 transition-colors">
+              <Radio className="h-6 w-6 text-black" />
+            </div>
             <div>
               <h1 className={`text-2xl font-bold ${
                 isHomePage && !isScrolled ? 'text-white' : 'text-white'
