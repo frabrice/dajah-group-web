@@ -35,23 +35,23 @@ function Navbar() {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 group">
-            <div className="bg-blue-500 p-2 rounded-lg group-hover:bg-blue-400 transition-colors">
-              <Radio className="h-6 w-6 text-black" />
+          <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2 sm:space-x-3 group">
+            <div className="bg-blue-500 p-1.5 sm:p-2 rounded-lg group-hover:bg-blue-400 transition-colors flex-shrink-0">
+              <Radio className="h-5 w-5 sm:h-6 sm:w-6 text-black" />
             </div>
-            <div>
-              <h1 className={`text-2xl font-bold ${
+            <div className="min-w-0">
+              <h1 className={`text-lg sm:text-xl md:text-2xl font-bold ${
                 isHomePage && !isScrolled ? 'text-white' : 'text-white'
               }`}>
                 Dajah Group
               </h1>
-              <p className="text-xs text-blue-500 tracking-wider">
+              <p className="text-[10px] sm:text-xs text-blue-500 tracking-wider whitespace-nowrap">
                 Music Administration
               </p>
             </div>
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
             {[
               { name: 'Home', path: '/' },
               { name: 'About', path: '/about' },
@@ -63,7 +63,7 @@ function Navbar() {
                 key={link.path}
                 to={link.path}
                 onClick={handleLinkClick}
-                className={`text-sm font-medium transition-colors ${
+                className={`text-sm font-medium transition-colors whitespace-nowrap ${
                   location.pathname === link.path
                     ? 'text-blue-500'
                     : isHomePage && !isScrolled
@@ -77,12 +77,13 @@ function Navbar() {
           </div>
 
           <button
-            className={`md:hidden p-2 rounded-md ${
+            className={`md:hidden p-1.5 sm:p-2 rounded-md flex-shrink-0 ${
               isHomePage && !isScrolled ? 'text-white' : 'text-white'
             }`}
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X size={20} className="sm:w-6 sm:h-6" /> : <Menu size={20} className="sm:w-6 sm:h-6" />}
           </button>
         </div>
 
