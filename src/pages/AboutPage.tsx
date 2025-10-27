@@ -10,7 +10,7 @@ function AboutPage() {
 
   const milestones = [
     { year: "2018", event: "Dajah Group Founded", description: "Started as a financial services firm" },
-    { year: "2020", event: "Music Publishing Division Launched", description: "Expanded into music rights management" },
+    { year: "2024", event: "Music Publishing Division Launched", description: "Expanded into music rights management" },
     { year: "2025", event: "DajahTunes Platform Released", description: "Launched proprietary distribution platform" }
   ];
 
